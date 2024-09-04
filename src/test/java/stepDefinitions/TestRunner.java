@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src/test/resources/features/", 
-glue= {"StepDefinitions"}, 
+glue= {"stepDefinitions"}, 
 monochrome = true
 //tags = "@smokeTests and @regressionTests"
 )
