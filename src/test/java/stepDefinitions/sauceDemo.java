@@ -22,7 +22,7 @@ public class sauceDemo {
         Thread.sleep(5000);
     } 
 
-    @When("I enter {username} and {password}")
+    @When("I enter {string} and {string}")
     public void user_enters_username_password(String username, String password) throws InterruptedException {
         driver.findElement(By.xpath("//input[@id='user-name']")).sendKeys(username);
         Thread.sleep(5000);

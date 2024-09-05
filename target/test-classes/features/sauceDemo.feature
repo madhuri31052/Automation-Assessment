@@ -5,7 +5,7 @@ Feature: Check login
   @tag1
   Scenario Outline: login functionality
     Given I am on the login page of Sauce Demo
-    When I enter <username> and <password>
+    When I enter "<username>" and "<password>"
     And Click on login button
     Then the page should be redirected to inventory page
 
